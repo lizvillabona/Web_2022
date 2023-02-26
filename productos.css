@@ -1,0 +1,67 @@
+h2{
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(98, 236, 190);
+    color: rgb(236, 188, 28);
+}
+h4{
+    margin-top: 10px;
+    font-family: 'segoe UI' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(44, 131, 172);
+    text-align: center;
+}
+.button{
+    text-align: center;
+    background-color: #e6d681;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.button :hover{
+    background-color: white;
+    border: solid #ffdaff;
+}
+#productos{
+    background-color: rgba(255, 255, 255, 0.767);
+}
+#productos-link{
+    background-color: #ffda06;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px;
+    background-color: #d3cbb9;
+    padding: 5px;
+    grid-gap: 0.2rem;
+        
+  }
+  .grid-item-style{
+    box-shadow: 0 3rem 6rem black;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .grid-item-style:hover{
+   transform: translateY(-0.5%);
+   box-shadow: 0 4rem 8rem black;
+  }
+    
+  .grid-container > div {
+    background-color: rgba(231, 220, 220, 0.8);
+    text-align: center;
+    padding:0.5px 10px;
+    font-size: 30px;
+    
+  }
+  .item6 {
+    grid-area: 1 / 2 / 5 / 6;
+  }
+  label{
+    font-family: 'segoe UI' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(4, 44, 63);
+    text-align: center;
+  }

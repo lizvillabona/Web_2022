@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: aquamarine;
+    color: rgb(236, 188, 28);
+}
+
+
+.banner{
+    height: 150px;
+    background-color: blueviolet;
+}
+.banner p{
+    text-align: center;
+    color: antiquewhite;
+}
+main{
+    display: block;
+}
+main div{
+    display: flex;
+}
+main article{
+    width: 98%;
+}
+main article h2{
+    text-align: center;
+}
+#titulo-nosotros{
+    padding: 2%;
+    color: whitesmoke;
+    text-shadow: none;
+}
+#nosotros{
+    background-color: rgba(255, 255, 255, 0.767);
+}
+#nosotros-link{
+    background-color: #ffda06;
+}
